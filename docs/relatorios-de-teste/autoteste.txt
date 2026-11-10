@@ -1,0 +1,50 @@
+﻿Ultragear — autoteste DDC/CI  2026-11-09 15:37:35
+Tela ativa: XG27ACS [AUS27FE] \\.\DISPLAY2 via DisplayPort
+Tela ativa: LG ULTRAGEAR+ [GSM5CEA] \\.\DISPLAY1 via DisplayPort
+Estado inicial: modo 45 (Jogador 1), brilho 80, contraste 50, nitidez 50, estab. preto 45, temp 11/6500K, RGB 50/50/50, VRR 0, volume 30, mudo 2, firmware 3.07, MCCS 2.1, uso 43
+[OK ] Leitura do estado: valores lidos do monitor
+[OK ] Brilho: gravado 90, lido 90
+[OK ] Brilho (restaurar): restaurado 80, lido 80
+[OK ] Contraste: gravado 55, lido 55
+[OK ] Contraste (restaurar): restaurado 50, lido 50
+[OK ] Nitidez: gravado 55, lido 55
+[OK ] Nitidez (restaurar): restaurado 50, lido 50
+[OK ] Estabilizador de preto: gravado 50, lido 50
+[OK ] Estabilizador de preto (restaurar): restaurado 45, lido 45
+[OK ] Volume: gravado 33, lido 33
+[OK ] Volume (restaurar): restaurado 30, lido 30
+[OK ] Mudo: lido 1
+[OK ] Mudo (restaurar): lido 2
+[OK ] SMART ENERGY SAVING = Baixo: lido 1
+[OK ] SMART ENERGY SAVING = Elevado: lido 2
+[OK ] SMART ENERGY SAVING (restaurar): lido 0
+[OK ] Temperatura de cor: Quente: lido 3
+[OK ] Temperatura de cor: Médio: lido 5
+[OK ] Temperatura de cor: Frio: lido 9
+[OK ] Temperatura de cor: Personalizada (R/G/B): lido 11
+[OK ] Temperatura de cor: Manual (Kelvin): lido 65502
+[OK ] Temperatura manual (K): gravado 5000, lido 5000
+[OK ] Temperatura manual (K) (restaurar): restaurado 6500, lido 6500
+[OK ] Ganho vermelho: gravado 54, lido 54
+[OK ] Ganho vermelho (restaurar): restaurado 50, lido 50
+[OK ] Ganho verde: gravado 54, lido 54
+[OK ] Ganho verde (restaurar): restaurado 50, lido 50
+[OK ] Ganho azul: gravado 54, lido 54
+[OK ] Ganho azul (restaurar): restaurado 50, lido 50
+[OK ] Temperatura de cor (restaurar): lido 11
+[OK ] Modo Imagem Personalizada: código 65, lido 65; brilho 0, contraste 70, temp 65502
+[OK ] Modo Jogador 1: código 45, lido 45; brilho 80, contraste 50, temp 11
+[OK ] Modo Jogador 2: código 46, lido 46; brilho 100, contraste 70, temp 65502
+[OK ] Modo Calibração 1: código 18, lido 18; brilho 80, contraste 70, temp 11
+[OK ] Modo Calibração 2: código 19, lido 19; brilho 100, contraste 70, temp 11
+[OK ] Modo Fraqueza de cor: código 6, lido 6; brilho 100, contraste 70, temp 11
+[OK ] Modo DCI-P3: código 25, lido 25; brilho 34, contraste 70, temp 11
+[OK ] Modo FPS: código 30, lido 30; brilho 100, contraste 70, temp 65502
+[OK ] Modo RTS: código 31, lido 31; brilho 100, contraste 70, temp 65502
+[OK ] Modo Vívida: código 49, lido 49; brilho 100, contraste 70, temp 65502
+[OK ] Modo Leitor: código 1, lido 1; brilho 35, contraste 70, temp 11
+[OK ] Modo Efeito HDR: código 39, lido 39; brilho 100, contraste 70, temp 65502
+[OK ] Modo sRGB: código 15, lido 15; brilho 34, contraste 70, temp 11
+[OK ] Modo de imagem (restaurar): lido 45
+[OK ] Estado final igual ao inicial: modo 45, brilho 80, contraste 50, nitidez 50, estab. 45, temp 11, volume 30, VRR 0
+Resultado: 45 OK, 0 falha(s).

@@ -1,0 +1,18 @@
+# Build output
+bin/
+obj/
+publish/
+_publish/
+
+# The compiled app is distributed through GitHub Releases, not the repository
+/Ultragear.exe
+*.exe
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini

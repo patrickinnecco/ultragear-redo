@@ -1,0 +1,11 @@
+﻿Ultragear — autoteste de recursos do Windows  2026-11-09 15:30:20
+[OK ] Divisão de tela: encaixe nas zonas: 32/32 zonas exatas (±2 px)
+[OK ] Divisão de tela: detecção da zona atual: zona 3
+[OK ] Predefinição: Mapa de Caracteres em primeiro plano → FPS: modo lido 30 (em foco: charmap.exe)
+[OK ] Predefinição: demais aplicativos → modo padrão: modo lido 65, esperado 65
+[OK ] Perfil ICC: definir padrão do monitor: definido sRGB Color Space Profile.icm, lido sRGB Color Space Profile.icm 
+[OK ] Perfil ICC: reverter: antes nenhum, agora nenhum
+[OK ] Orientação (leitura): Paisagem
+[OK ] Modo de vídeo / HDR (leitura): 2560 × 1440 @ 240 Hz, 12 bits/canal | HDR: Desativado (Windows)
+[OK ] Detecção de sensor: nenhum sensor conectado
+Resultado: 9 OK, 0 falha(s).

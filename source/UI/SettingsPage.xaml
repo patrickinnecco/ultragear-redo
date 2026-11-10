@@ -1,0 +1,60 @@
+<UserControl x:Class="Ultragear.UI.SettingsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,0,10,0">
+        <StackPanel Margin="40,10,24,20">
+            <TextBlock Text="Configurações" Style="{StaticResource PageTitle}"/>
+            <TextBlock Text="Inicialização, informações do monitor e diagnóstico." Style="{StaticResource PageDesc}" Margin="0,6,0,18"/>
+
+            <StackPanel Orientation="Horizontal">
+                <Path Data="{StaticResource IconSettings}" Style="{StaticResource SectionIcon}"/>
+                <TextBlock Text="Inicialização" Style="{StaticResource SectionTitle}"/>
+            </StackPanel>
+            <Grid Margin="0,12,0,0">
+                <TextBlock Text="Iniciar com o Windows" Style="{StaticResource Label}"/>
+                <CheckBox x:Name="StartupToggle" Style="{StaticResource Toggle}" HorizontalAlignment="Right" Click="Startup_Click"/>
+            </Grid>
+            <Grid Margin="0,12,0,0">
+                <TextBlock Text="Iniciar minimizado na bandeja" Style="{StaticResource Label}"/>
+                <CheckBox x:Name="MinToggle" Style="{StaticResource Toggle}" HorizontalAlignment="Right" Click="Min_Click"/>
+            </Grid>
+            <Grid Margin="0,12,0,0">
+                <TextBlock Text="Fechar (X) mantém na bandeja" Style="{StaticResource Label}"/>
+                <CheckBox x:Name="TrayToggle" Style="{StaticResource Toggle}" HorizontalAlignment="Right" Click="Tray_Click"/>
+            </Grid>
+            <TextBlock Style="{StaticResource Hint}" Margin="2,8,0,0" Text="Mantenha o Ultragear em execução para usar a predefinição por aplicativo, os atalhos e o encaixe de janelas."/>
+
+            <Border Style="{StaticResource Divider}"/>
+
+            <StackPanel Orientation="Horizontal">
+                <Path Data="{StaticResource IconInfo}" Style="{StaticResource SectionIcon}"/>
+                <TextBlock Text="Informações do monitor" Style="{StaticResource SectionTitle}"/>
+            </StackPanel>
+            <Grid x:Name="InfoGrid" Margin="0,12,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Button Content="Atualizar informações" Style="{StaticResource PillButton}" HorizontalAlignment="Left" Margin="0,10,0,0" Click="Info_Click"/>
+
+            <Border Style="{StaticResource Divider}"/>
+
+            <StackPanel Orientation="Horizontal">
+                <Path Data="{StaticResource IconPattern}" Style="{StaticResource SectionIcon}"/>
+                <TextBlock Text="Diagnóstico" Style="{StaticResource SectionTitle}"/>
+            </StackPanel>
+            <UniformGrid Columns="2" Margin="0,12,0,0">
+                <Button Content="Ler capacidades DDC/CI" Style="{StaticResource PillButton}" Margin="0,0,5,8" Click="Caps_Click"/>
+                <Button Content="Abrir pasta de logs" Style="{StaticResource PillButton}" Margin="5,0,0,8" Click="Logs_Click"/>
+                <Button Content="Exportar perfis…" Style="{StaticResource PillButton}" Margin="0,0,5,0" Click="Export_Click"/>
+                <Button Content="Importar perfis…" Style="{StaticResource PillButton}" Margin="5,0,0,0" Click="Import_Click"/>
+            </UniformGrid>
+
+            <Border Style="{StaticResource Divider}"/>
+
+            <TextBlock Style="{StaticResource Hint}" x:Name="AboutText"/>
+            <Button Content="Sair do Ultragear" Style="{StaticResource PillButton}" HorizontalAlignment="Left" Margin="0,14,0,0" Click="Exit_Click"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
