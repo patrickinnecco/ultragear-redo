@@ -1,9 +1,9 @@
-# Ultragear
+﻿# Ultragear
 
 **Controle independente do monitor LG 27GX704A (OLED) pelo Windows, via DDC/CI.**
 Modos de imagem, brilho, contraste, cor, Adaptive-Sync/VRR, economia de energia, troca de modo por aplicativo, divisão de tela, perfis, perfis ICC e padrões de teste, num app leve e de arquivo único. É uma alternativa às funções úteis do LG Switch e do LG Calibration Studio, sem as partes que não servem para este monitor.
 
-[![build](https://github.com/patrickinnecco/ultragear/actions/workflows/build.yml/badge.svg)](https://github.com/patrickinnecco/ultragear/actions/workflows/build.yml)
+[![build](https://github.com/patrickinnecco/ultragear-redo/actions/workflows/build.yml/badge.svg)](https://github.com/patrickinnecco/ultragear-redo/actions/workflows/build.yml)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6)
 ![.NET 7 WPF](https://img.shields.io/badge/.NET%207-WPF-512BD4)
 ![Licença MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
@@ -15,7 +15,7 @@ Modos de imagem, brilho, contraste, cor, Adaptive-Sync/VRR, economia de energia,
 </p>
 
 ## Download
-Baixe o `Ultragear.exe` na página de **[Releases](https://github.com/patrickinnecco/ultragear/releases/latest)**. É um executável único e autocontido: não precisa instalar o .NET nem ser administrador.
+Baixe o `Ultragear.exe` na página de **[Releases](https://github.com/patrickinnecco/ultragear-redo/releases/latest)**. É um executável único e autocontido: não precisa instalar o .NET nem ser administrador.
 
 ## Funções
 | Área | O que faz |
